@@ -1,6 +1,6 @@
 // { FaAirbnb } from "react-icons/fa";
 import { BiGlobe } from "react-icons/bi";
-import { BiSearch } from "react-icons/bi";
+import { IoSearchCircle } from "react-icons/io5";
 import { AiOutlineMenu } from "react-icons/ai";
 import { FaUserCircle } from "react-icons/fa";
 function Header() {
@@ -11,11 +11,11 @@ function Header() {
       </div>
       <div className="searchBar">
         <input type="text" />
-        <BiSearch />
+        <IoSearchCircle size={32}/>
       </div>
       <div className="login">
         <div className="loginContent">
-          <p>Airbnb your home</p>
+          <a href="#" className="airbnbHome">Airbnb your home</a>
         </div>
         <div className="loginContent">
           <BiGlobe />
@@ -23,9 +23,9 @@ function Header() {
         <div className="loginContent">
           <div class="dropdown">
             <button onclick="" class="dropbtn">
-              <AiOutlineMenu />{" "}
+             <div><AiOutlineMenu /></div> {" "}
               <div className="userIcon">
-                <FaUserCircle />
+                <FaUserCircle size={28}/>
               </div>
             </button>
             <div id="myDropdown" class="dropdown-content">

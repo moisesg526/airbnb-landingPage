@@ -11,7 +11,7 @@
   font-weight: 400;
 }
 
-.learnMore a {
+a {
   color: #000;
 }
 
@@ -21,6 +21,11 @@
   font-family: "Inter", sans-serif;
   justify-content: space-between;
   padding: 0.3rem 2.6rem;
+    /* needs to stick to top */
+  position: sticky;
+  top: 0;
+  /* On top of everything */
+  z-index: 100;
 }
 
 .logo {
@@ -33,6 +38,10 @@
 .searchBar {
   display: flex;
   align-items: center;
+  color: #ff5a60;
+  border: 1px solid #f5f5f5;
+  border-radius: 999px;
+  padding: 10px;
 }
 
 .login {
@@ -47,11 +56,16 @@
 .dropbtn {
   background-color: #fff;
   color: rgb(103, 103, 103);
-  padding: 10px;
+  padding: 8px;
   cursor: pointer;
-  border-radius: 25px;
+  border-radius: 999px;
   border: 2px solid #f5f5f5;
   display: flex;
+  align-items: center;
+}
+
+.airbnbHome {
+    text-decoration: none;
 }
 
 .userIcon {
