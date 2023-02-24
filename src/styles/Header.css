@@ -1,10 +1,12 @@
-* {
-  margin: 0;
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
 }
 
 /* LEARN MORE SECTION */
 .learnMore {
-  background-color: #f5f5f5;
+  background-color: #f5f5f5; 
   text-align: center;
   padding: 1.4rem 0;
   font-size: 18px;
@@ -21,7 +23,7 @@ a {
   font-family: "Inter", sans-serif;
   justify-content: space-between;
   padding: 0.3rem 2.6rem;
-    /* needs to stick to top */
+  /* needs to stick to top */
   position: sticky;
   top: 0;
   /* On top of everything */
@@ -35,14 +37,92 @@ a {
   font-weight: bold;
 }
 
-.searchBar {
+.searchbar {
+  width: 650px;
+  background: white;
+  box-shadow: 0 0 5px hsl(0 0% 80%);
+  height: 55px;
+  border-radius: 100vw;
   display: flex;
-  align-items: center;
-  color: #ff5a60;
-  border: 1px solid #f5f5f5;
-  border-radius: 999px;
-  padding: 10px;
+  justify-content: center;
+  font-size: 0.6rem;
 }
+
+.searchbar div {
+  border-radius:inherit;
+  padding:0.8rem 1.5rem;
+}
+
+.searchbar div:hover {
+  background: hsl(0, 0%, 94%);
+  transition: 250ms ease;
+}
+
+.location {
+  width: 34%;
+}
+
+input[type="text"]:focus{
+  outline:none;
+}
+
+input[type="text"]{
+  background:none;
+  border:none;
+  padding:0.2rem 0 0 0;
+}
+
+.check-in, .check-out, .guests {
+  width: 22%;
+}
+
+::placeholder{
+  font-size:0.75rem;
+}
+
+.guests{
+  position: relative;  
+}
+
+.guests span{
+  position:absolute;
+  top:50%;
+  right:10px;
+  transform:translateY(-50%);
+  background:#FF385C;
+  color:white;
+  font-size:0.1rem;
+  padding:0.2rem;
+  border-radius:50%;
+}
+
+.searchbar>div{
+  position:relative;
+}
+
+
+.searchbar>div::before{
+  position:absolute;
+  content:"";
+  left:0;
+  top:50%;
+  transform:translateY(-50%);
+  width:1px;
+  height:55%;
+  background:hsl(0 0% 90%);
+}
+
+.searchbar>div:nth-of-type(1)::before{
+   background:transparent;
+}
+
+
+.bar>div:hover::before{
+  background:transparent;
+}
+
+
+
 
 .login {
   display: flex;
@@ -65,7 +145,7 @@ a {
 }
 
 .airbnbHome {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .userIcon {

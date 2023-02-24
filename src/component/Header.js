@@ -3,19 +3,41 @@ import { BiGlobe } from "react-icons/bi";
 import { IoSearchCircle } from "react-icons/io5";
 import { AiOutlineMenu } from "react-icons/ai";
 import { FaUserCircle } from "react-icons/fa";
+import "../styles/Header.css";
 function Header() {
   return (
     <section className="header">
       <div className="logo">
         <img src="/images/airbnb.png" alt="airbnb logo" />
       </div>
-      <div className="searchBar">
-        <input type="text" />
-        <IoSearchCircle size={32}/>
+
+      <div className="searchbar">
+        <div className="location">
+          <p>Location</p>
+          <input type="text" placeholder="Anywhere" />
+        </div>
+        <div className="check-in">
+          <p>Check in</p>
+          <input type="text" placeholder="Add dates" />
+        </div>
+        <div className="check-out">
+          <p>Check out</p>
+          <input type="text" placeholder="Add dates" />
+        </div>
+        <div className="guests">
+          <p>Guests</p>
+          <input type="text" placeholder="Add guests" />
+          <span>
+            <IoSearchCircle size={16}/>
+          </span>
+        </div>
       </div>
+
       <div className="login">
         <div className="loginContent">
-          <a href="#" className="airbnbHome">Airbnb your home</a>
+          <a href="#" className="airbnbHome">
+            Airbnb your home
+          </a>
         </div>
         <div className="loginContent">
           <BiGlobe />
@@ -23,9 +45,11 @@ function Header() {
         <div className="loginContent">
           <div class="dropdown">
             <button onclick="" class="dropbtn">
-             <div><AiOutlineMenu /></div> {" "}
+              <div>
+                <AiOutlineMenu />
+              </div>{" "}
               <div className="userIcon">
-                <FaUserCircle size={28}/>
+                <FaUserCircle size={28} />
               </div>
             </button>
             <div id="myDropdown" class="dropdown-content">

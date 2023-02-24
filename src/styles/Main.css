@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+.background {
+  display: grid;
+  grid-template-areas: "overlap";
+}
+
+.beach-img {
+  grid-area: overlap;
+  height: 600px;
+  image-rendering: -webkit-optimize-contrast;
+  width: 100%;
+}
+.content {
+  margin: 20px;
+  width: 30%;
+  height: 45%;
+  padding: 40px;
+  grid-area: overlap;
+  background-color: #000;
+  color: #fff;
+  overflow: hidden;
+}
+
+.explore-btn {
+  background-color: #ff5a60;
+  color: #fff;
+  margin-top: 30px;
+  border-radius: 20px;
+  white-space: normal;
+  width: 100px;
+  height: 30px;
+}
