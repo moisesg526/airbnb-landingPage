@@ -1,0 +1,43 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.card {
+  margin: 10px;
+  border-radius: 14px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0px 5px 18px -9px rgba(0, 0, 0, 0.75);
+  transition: transform 0.1s ease-in;
+}
+
+.card:hover {
+  transform: scale(1.08);
+}
+
+.card > img {
+  min-width: 300px;
+  max-height: 200px;
+  object-fit: fill;
+  width: 100%;
+}
+
+.info {
+  margin-top: -10px;
+  border-radius: 10px;
+  padding: 20px;
+  padding-top: 10px;
+}
+
+.info > h2 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.info > h3 {
+  font-size: 12px;
+}
+
+.info > h4 {
+  font-weight: 800;
+}
