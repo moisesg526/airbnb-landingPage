@@ -1,13 +1,25 @@
+import { AiFillHeart } from "react-icons/ai";
+import { AiFillStar } from "react-icons/ai";
 import "../styles/Card.css";
 
-function Card({ src, location, date, price }) {
+function Card({ src, location, rating, date, price }) {
   return (
     <div className="card">
-      <img src={src} alt="" />
+      <img src={src} alt="" /> <AiFillHeart size={24} className="heart" />
       <div className="info">
-        <h2>{location}</h2>
-        <h3>{date}</h3>
-        <h4>{price}</h4>
+        <div className="location">
+          <h2>{location}</h2>
+          <div className="rating">
+            <AiFillStar />
+            <h2>{rating}</h2>
+          </div>
+        </div>
+        <div className="date">
+          <h3>{date}</h3>
+        </div>
+        <div className="price">
+          <h4>{price}</h4>
+        </div>
       </div>
     </div>
   );

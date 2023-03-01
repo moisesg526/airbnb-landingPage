@@ -1,3 +1,4 @@
+import "../styles/LearnMore.css";
 function LearnMore() {
   return (
     <div className="learnMore">
