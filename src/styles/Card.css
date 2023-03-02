@@ -30,6 +30,30 @@
   padding-top: 10px;
 }
 
+.info-rating {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heart {
+  font-size: 35px;
+  color: rgb(182, 173, 173);
+  margin-top: 7px;
+  width: 70px;
+  outline: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+}
+.active {
+  color: #ff5a60;
+}
+
 .location {
   color: rgb(34, 34, 34);
   font-size: 10px;
@@ -38,10 +62,6 @@
   font-family: "Roboto" sans-serif;
   display: flex;
 }
-.rating {
-  display: flex;
-  
-}
 
 .date {
   color: rgb(113, 113, 113);
@@ -49,10 +69,6 @@
 }
 
 .price {
-  color:rgb(34, 34, 34);
+  color: rgb(34, 34, 34);
   padding-top: 10px;
-}
-
-.heart {
-  color: #ff5a60;
 }

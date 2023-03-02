@@ -19,6 +19,13 @@ function App() {
           price="$330 night"
         />
         <Card
+          src="/images/cabin.jpg"
+          location="Bear Mountain, New York"
+          rating="4.2"
+          date="May 12 - 25"
+          price="$400 night"
+        />
+        <Card
           src="/images/farmhouse.jpg"
           location="Louisville, Kentuky"
           rating="4.5"
@@ -48,6 +55,13 @@ function App() {
           rating="4.4"
           date="Jan 10 - 15"
           price="$200 night"
+        />
+        <Card
+          src="/images/deserthouse.jpg"
+          location="Phoenix, Arizona"
+          rating="4.2"
+          date="Jan 11 - 17"
+          price="$150 night"
         />
         <Card
           src="/images/mountainhouse.jpg"
@@ -81,6 +95,13 @@ function App() {
           price="$330 night"
         />
         <Card
+          src="/images/cabin.jpg"
+          location="Bear Mountain, New York"
+          rating="4.2"
+          date="May 12 - 25"
+          price="$400 night"
+        />
+        <Card
           src="/images/farmhouse.jpg"
           location="Louisville, Kentuky"
           rating="4.7"
@@ -109,6 +130,13 @@ function App() {
           rating="4.1"
           date="Jan 10 - 15"
           price="$200 night"
+        />
+        <Card
+          src="/images/deserthouse.jpg"
+          location="Phoenix, Arizona"
+          rating="4.2"
+          date="Jan 11 - 17"
+          price="$150 night"
         />
         <Card
           src="/images/mountainhouse.jpg"

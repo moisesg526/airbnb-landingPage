@@ -1,14 +1,25 @@
+import React, { useCallback, useState } from "react";
 import { AiFillHeart } from "react-icons/ai";
-import { AiFillStar } from "react-icons/ai";
+import { AiFillStar } from "react-icons/ai"
+
 import "../styles/Card.css";
 
 function Card({ src, location, rating, date, price }) {
+  const [likeHouse, setLikeHouse] = useState(false);
+  const handleClick = () => setLikeHouse(!likeHouse);
+  
   return (
     <div className="card">
-      <img src={src} alt="" /> <AiFillHeart size={24} className="heart" />
+      <img src={src} alt="" />
+      <AiFillHeart
+        className={likeHouse ? "heart active" : "heart"}
+        onClick={handleClick}
+      />
       <div className="info">
-        <div className="location">
-          <h2>{location}</h2>
+        <div className="info-rating">
+          <div className="location">
+            <h2>{location}</h2>
+          </div>
           <div className="rating">
             <AiFillStar />
             <h2>{rating}</h2>
