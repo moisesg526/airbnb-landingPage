@@ -3,3 +3,32 @@
   padding: 30px;
   justify-content: space-between;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.grid__col2 {
+  grid-column: span 2;
+}
+
+/* @media (min-width: 650px) {
+  .col__l {
+    grid-column: span 6;
+  }
+} */
+
+/* @media (min-width: 1128px) {
+  .col__ {
+    grid-column: span 2;
+  }
+} */
+
+/* @media (min-width: 450px) {
+  .grid__l {
+    grid-column: span 2;
+  }
+} */
+
+
