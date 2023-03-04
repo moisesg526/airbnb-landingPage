@@ -12,7 +12,7 @@ function App() {
       <Main />
       <div className="listings">
         <div className="grid">
-          <div className="cols grid__col2 col__l col__xl">
+          <div className="cols grid__col2">
             <Card
               src="/images/woodhouse.jpg"
               location="Madison, Montana"
@@ -21,7 +21,7 @@ function App() {
               price="$330 night"
             />
           </div>
-          <div className="cols grid__col2 col__l col__xl">
+          <div className="cols grid__col2">
             <Card
               src="/images/treehouse.jpg"
               location="Merced, California"
@@ -30,7 +30,7 @@ function App() {
               price="$450 night"
             />
           </div>
-          <div className="cols grid__col2 col__l col__xl">
+          <div className="cols grid__col2">
             <Card
               src="/images/cabin.jpg"
               location="Bear Mountain, New York"
@@ -39,7 +39,7 @@ function App() {
               price="$400 night"
             />
           </div>
-          <div className="cols grid__col2 col__l col__xl">
+          <div className="cols grid__col2">
             <Card
               src="/images/farmhouse.jpg"
               location="Louisville, Kentuky"
@@ -48,7 +48,7 @@ function App() {
               price="$200 night"
             />
           </div>
-          <div className="cols grid__col2 col__l col__xl">
+          <div className="cols grid__col2">
             <Card
               src="/images/modernhouse.jpg"
               location="Los Angeles, California"
@@ -57,7 +57,7 @@ function App() {
               price="$300 night"
             />
           </div>
-          <div className="cols grid__col2 col__l col__xl">
+          <div className="cols grid__col2">
             <Card
               src="/images/housepool.jpg"
               location="Miami, Florida"
@@ -71,7 +71,7 @@ function App() {
 
       <div className="listings">
         <div className="grid">
-          <div className="cols grid__col2 col__l col__xl">
+          <div className="cols grid__col2">
             <Card
               src="/images/lakehouse.jpg"
               location="Lake George, Ny"
@@ -80,7 +80,7 @@ function App() {
               price="$200 night"
             />
           </div>
-          <div className="cols grid__col2 col__l col__xl">
+          <div className="cols grid__col2">
             <Card
               src="/images/snowtreehouse.jpg"
               location="Anchorage, Alaska"
@@ -89,7 +89,7 @@ function App() {
               price="$550 night"
             />
           </div>
-          <div className="cols grid__col2 col__l col__xl">
+          <div className="cols grid__col2">
             <Card
               src="/images/deserthouse.jpg"
               location="Phoenix, Arizona"
@@ -98,7 +98,7 @@ function App() {
               price="$150 night"
             />
           </div>
-          <div className="cols grid__col2 col__l col__xl">
+          <div className="cols grid__col2">
             <Card
               src="/images/mountainhouse.jpg"
               location="Cloverdale, Oregon"
@@ -107,7 +107,7 @@ function App() {
               price="$250 night"
             />
           </div>
-          <div className="cols grid__col2 col__l col__xl">
+          <div className="cols grid__col2">
             <Card
               src="/images/nighthouse.jpg"
               location="Los Angeles, California"
@@ -116,7 +116,7 @@ function App() {
               price="$500 night"
             />
           </div>
-          <div className="cols grid__col2 col__l col__xl">
+          <div className="cols grid__col2">
             <Card
               src="/images/snowhouse.jpg"
               location="Green bay, Wisconsin"
@@ -130,7 +130,7 @@ function App() {
 
       <div className="listings">
         <div className="grid">
-          <div className="cols grid__col2 col__l col__xl">
+          <div className="cols grid__col2">
             <Card
               src="/images/woodhouse.jpg"
               location="Madison, Montana"
@@ -139,7 +139,7 @@ function App() {
               price="$330 night"
             />
           </div>
-          <div className="cols grid__col2 col__l col__xl">
+          <div className="cols grid__col2">
             <Card
               src="/images/treehouse.jpg"
               location="Merced, California"
@@ -148,7 +148,7 @@ function App() {
               price="$450 night"
             />
           </div>
-          <div className="cols grid__col2 col__l col__xl">
+          <div className="cols grid__col2">
             <Card
               src="/images/cabin.jpg"
               location="Bear Mountain, New York"
@@ -157,7 +157,7 @@ function App() {
               price="$400 night"
             />
           </div>
-          <div className="cols grid__col2 col__l col__xl">
+          <div className="cols grid__col2">
             <Card
               src="/images/farmhouse.jpg"
               location="Louisville, Kentuky"
@@ -166,7 +166,7 @@ function App() {
               price="$200 night"
             />
           </div>
-          <div className="cols grid__col2 col__l col__xl">
+          <div className="cols grid__col2">
             <Card
               src="/images/modernhouse.jpg"
               location="Los Angeles, California"
@@ -175,7 +175,7 @@ function App() {
               price="$300 night"
             />
           </div>
-          <div className="col grid__col2 col__l col__xl">
+          <div className="col grid__col2">
             <Card
               src="/images/housepool.jpg"
               location="Miami, Florida"
@@ -188,7 +188,7 @@ function App() {
       </div>
       <div className="listings">
         <div className="grid">
-          <div className="cols grid__col2 col__l col__xl">
+          <div className="cols grid__col2">
             <Card
               src="/images/lakehouse.jpg"
               location="Lake George, Ny"
@@ -197,7 +197,7 @@ function App() {
               price="$200 night"
             />
           </div>
-          <div className="cols grid__col2 col__l col__xl">
+          <div className="cols grid__col2">
             <Card
               src="/images/snowtreehouse.jpg"
               location="Anchorage, Alaska"
@@ -206,7 +206,7 @@ function App() {
               price="$550 night"
             />
           </div>
-          <div className="cols grid__col2 col__l col__xl">
+          <div className="cols grid__col2">
             <Card
               src="/images/deserthouse.jpg"
               location="Phoenix, Arizona"
@@ -215,7 +215,7 @@ function App() {
               price="$150 night"
             />
           </div>
-          <div className="cols grid__col2 col__l col__xl">
+          <div className="cols grid__col2">
             <Card
               src="/images/mountainhouse.jpg"
               location="Cloverdale, Oregon"
@@ -224,7 +224,7 @@ function App() {
               price="$250 night"
             />
           </div>
-          <div className="cols grid__col2 col__l col__xl">
+          <div className="cols grid__col2">
             <Card
               src="/images/nighthouse.jpg"
               location="Los Angeles, California"
@@ -233,7 +233,7 @@ function App() {
               price="$500 night"
             />
           </div>
-          <div className="cols grid__col2 col__l col__xl">
+          <div className="cols grid__col2">
             <Card
               src="/images/snowhouse.jpg"
               location="Green bay, Wisconsin"

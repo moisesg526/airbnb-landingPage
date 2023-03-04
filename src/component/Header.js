@@ -8,7 +8,7 @@ function Header() {
   return (
     <section className="header">
       <div className="logo">
-        <img src="/images/airbnb.png" alt="airbnb logo" />
+        <img src="/images/airbnb.png" alt="airbnb logo" className="airbnblogo"/>
       </div>
 
       <div className="searchbar">
@@ -39,7 +39,7 @@ function Header() {
             Airbnb your home
           </a>
         </div>
-        <div className="loginContent">
+        <div className="loginContent globe">
           <BiGlobe />
         </div>
         <div className="loginContent">

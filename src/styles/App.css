@@ -13,21 +13,30 @@
   grid-column: span 2;
 }
 
-/* @media (min-width: 650px) {
-  .col__l {
+
+@media (max-width: 500px) {
+  .grid__col2 {
+    grid-column: span 12;
+  }
+}
+/* 
+@media (min-width: 501px) {
+  .grid__col2 {
     grid-column: span 6;
   }
 } */
 
-/* @media (min-width: 1128px) {
-  .col__ {
-    grid-column: span 2;
+/* @media (min-width: 750px) {
+  .grid__col2 {
+    grid-column: span 4;
   }
-} */
-
-/* @media (min-width: 450px) {
-  .grid__l {
-    grid-column: span 2;
+  .info-rating {
+    display:block
+  }
+  .rating {
+    display: flex;
+    justify-content:left;
+    padding-bottom: 10px;
   }
 } */
 
