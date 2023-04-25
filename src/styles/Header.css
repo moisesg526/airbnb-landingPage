@@ -1,7 +1,7 @@
-*{
-  box-sizing:border-box;
-  margin:0;
-  padding:0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -41,8 +41,8 @@ a {
 }
 
 .searchbar div {
-  border-radius:inherit;
-  padding:0.8rem 1.5rem;
+  border-radius: inherit;
+  padding: 0.8rem 1.5rem;
 }
 
 .searchbar div:hover {
@@ -54,67 +54,64 @@ a {
   width: 34%;
 }
 
-input[type="text"]:focus{
-  outline:none;
+input[type="text"]:focus {
+  outline: none;
 }
 
-input[type="text"]{
-  background:none;
-  border:none;
-  padding:0.2rem 0 0 0;
+input[type="text"] {
+  background: none;
+  border: none;
+  padding: 0.2rem 0 0 0;
 }
 
-.check-in, .check-out, .guests {
+.check-in,
+.check-out,
+.guests {
   width: 22%;
 }
 
-::placeholder{
-  font-size:0.75rem;
+::placeholder {
+  font-size: 0.75rem;
 }
 
-.guests{
-  position: relative;  
+.guests {
+  position: relative;
 }
 
-.guests span{
-  position:absolute;
-  top:50%;
-  right:10px;
-  transform:translateY(-50%);
-  background:#FF385C;
-  color:white;
-  font-size:0.1rem;
-  padding:0.2rem;
-  border-radius:50%;
+.guests span {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background: #ff385c;
+  color: white;
+  font-size: 0.1rem;
+  padding: 0.2rem;
+  border-radius: 50%;
 }
 
-.searchbar>div{
-  position:relative;
+.searchbar > div {
+  position: relative;
 }
 
-
-.searchbar>div::before{
-  position:absolute;
-  content:"";
-  left:0;
-  top:50%;
-  transform:translateY(-50%);
-  width:1px;
-  height:55%;
-  background:hsl(0 0% 90%);
+.searchbar > div::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 55%;
+  background: hsl(0 0% 90%);
 }
 
-.searchbar>div:nth-of-type(1)::before{
-   background:transparent;
+.searchbar > div:nth-of-type(1)::before {
+  background: transparent;
 }
 
-
-.bar>div:hover::before{
-  background:transparent;
+.bar > div:hover::before {
+  background: transparent;
 }
-
-
-
 
 .login {
   display: flex;
@@ -194,12 +191,7 @@ input[type="text"]{
   width: 150px;
 }
 
-
-
-
-
-
-@media (max-width: 500px) {
+@media (width <= 500px) {
   .header {
     display: flex;
 
@@ -209,14 +201,17 @@ input[type="text"]{
     display: none;
   }
 
+  .loginContent {
+    display: none;
+  }
   .searchbar {
     width: 350px;
   }
   .searchbar div {
-    padding:0.8rem 0.5rem;
+    padding: 0.8rem 0.5rem;
   }
-  ::placeholder{
-    font-size:0.50rem;
+  ::placeholder {
+    font-size: 0.5rem;
   }
   .airbnbHome {
     display: none;

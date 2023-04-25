@@ -86,8 +86,8 @@
   padding-top: 10px;
 }
 
-@media (max-width: 500px) {
+@media (width <= 500px) {
   .card {
-    margin-left: 60px;
+    margin: auto;
   }
 }

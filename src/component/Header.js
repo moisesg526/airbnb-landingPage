@@ -8,7 +8,11 @@ function Header() {
   return (
     <section className="header">
       <div className="logo">
-        <img src="/images/airbnb.png" alt="airbnb logo" className="airbnblogo"/>
+        <img
+          src="/images/airbnb.png"
+          alt="airbnb logo"
+          className="airbnblogo"
+        />
       </div>
 
       <div className="searchbar">
@@ -28,7 +32,7 @@ function Header() {
           <p>Guests</p>
           <input type="text" placeholder="Add guests" />
           <span>
-            <IoSearchCircle size={16}/>
+            <IoSearchCircle size={14} />
           </span>
         </div>
       </div>

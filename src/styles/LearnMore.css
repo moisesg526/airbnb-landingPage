@@ -6,3 +6,12 @@
     font-size: 18px;
     font-weight: 400;
   }
+
+
+
+@media (width <= 500px) {
+  .learnMore {
+    font-size: 10px;
+    width: 100%;
+  }
+}
