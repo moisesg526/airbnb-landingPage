@@ -32,7 +32,7 @@ function Header() {
           <p>Guests</p>
           <input type="text" placeholder="Add guests" />
           <span>
-            <IoSearchCircle size={14} />
+            <IoSearchCircle size={12} />
           </span>
         </div>
       </div>

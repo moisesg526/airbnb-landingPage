@@ -91,3 +91,10 @@
     margin: auto;
   }
 }
+
+@media (width > 500px) and (width <= 1000px) {
+  .card {
+    box-sizing: border-box;
+    margin: 30px;
+  }
+}

@@ -23,7 +23,6 @@ a {
 }
 
 .logo {
-  color: #ff5a60;
   object-fit: contain;
   font-size: 2rem;
   font-weight: bold;
@@ -218,5 +217,22 @@ input[type="text"] {
   }
   .globe {
     display: none;
+  }
+}
+
+
+
+@media (width > 500px) and (width <= 1000px) {
+  .searchbar {
+    box-sizing: border-box;
+    width: 400px;
+    height: 60px;
+    font-size: 0.5rem;
+  }
+  .airbnblogo {
+    width: 80px;
+  }
+  .loginContent {
+    padding-left: 10px;
   }
 }

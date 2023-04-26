@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .listings {
   display: flex;
   padding: 30px;
@@ -13,7 +17,6 @@
   grid-column: span 2;
 }
 
-
 @media (width <= 500px) {
   .grid__col2 {
     box-sizing: border-box;
@@ -23,4 +26,9 @@
   }
 }
 
-
+@media (width > 500px) and (width <= 1000px) {
+  .grid__col2 {
+    box-sizing: border-box;
+    grid-column: span 6;
+  }
+}
