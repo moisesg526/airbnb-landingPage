@@ -1,4 +1,3 @@
-// { FaAirbnb } from "react-icons/fa";
 import { BiGlobe } from "react-icons/bi";
 import { IoSearchCircle } from "react-icons/io5";
 import { AiOutlineMenu } from "react-icons/ai";
